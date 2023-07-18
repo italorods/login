@@ -203,3 +203,91 @@ input[type="checkbox"] {
     top: 4px;
   }
   
+
+  /* @media */
+
+  @media (max-width:420px){
+
+    .informacoes .login {
+        flex-direction: column;
+        }
+
+    .informacoes .password {
+        flex-direction: column;
+    }
+    input#senha {
+        width: 100%;
+    }
+    label{
+        justify-content: center;
+        display: flex;
+    }
+    .button-primary {
+        width: 100%;
+    }
+    #checkbox-label{
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:350px){
+
+    form {
+        border: 2.5rem solid transparent;
+    }
+
+    .button-primary {
+        width: 60%;
+    }
+}
+
+@media (max-width:290px){
+    .informacoes .login {
+        align-content: center;
+    }
+
+    input#login {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    input#senha {
+        width: 90%;
+    }
+
+    .informacoes .password {
+        text-align: center;
+    }
+
+    form{
+        gap: 0rem;
+    }
+    .icons {
+        gap: 1rem;
+    }
+    .icons a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icons i {
+        font-size: 1.1rem;
+    }
+    #checkbox-label {
+        font-size: 0.6rem;
+        align-items: center;
+        display: flex;
+    }
+
+    .button-primary {
+        padding-top: 2rem;
+    }
+
+    #checkbox-label {
+        height: 1.5rem;
+    }
+
+}
